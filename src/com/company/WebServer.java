@@ -6,18 +6,18 @@ public class WebServer {
     private int portNumber;
 
     public WebServer () {
-        state = 0;
-        portNumber = 0;
+        this(0, -1);
     }
 
     public WebServer(int state) {
-        this.state = state;
+        this(state, -1);
     }
 
     public WebServer(int state, int portNumber) {
         this.state = state;
         this.portNumber = portNumber;
     }
+
 
     public void setState (int state) {
         this.state = state;

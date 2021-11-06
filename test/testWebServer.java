@@ -33,7 +33,7 @@ public class testWebServer {
 
     @Test
     public void checkWhenThereIsNotAnyPortNumber() {
-        assertEquals(0, webServer.getPortNumber());
+        assertEquals(-1, webServer.getPortNumber());
     }
 
 }
