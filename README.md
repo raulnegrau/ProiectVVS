@@ -1,2 +1,2 @@
-# ProiectVVS
+# Proiect VVS
  High School Project
